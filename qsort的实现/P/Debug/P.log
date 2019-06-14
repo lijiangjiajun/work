@@ -1,0 +1,18 @@
+﻿生成启动时间为 2019/6/14 22:22:20。
+     1>项目“D:\比特科技C语言\Project11\a\P\P\P.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\BaiduNetdiskDownload\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt 3.c
+         3.c
+     1>d:\比特科技c语言\project11\a\p\p\3.c(62): warning C4090: “函数”: 不同的“const”限定符
+     1>d:\比特科技c语言\project11\a\p\p\3.c(62): warning C4028: 形参 1 与声明不同
+     1>d:\比特科技c语言\project11\a\p\p\3.c(62): warning C4028: 形参 2 与声明不同
+       Link:
+         D:\BaiduNetdiskDownload\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\比特科技C语言\Project11\a\P\Debug\P.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\比特科技C语言\Project11\a\P\Debug\P.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\比特科技C语言\Project11\a\P\Debug\P.lib" /MACHINE:X86 Debug\2.obj
+         Debug\1.obj
+         Debug\3.obj
+         P.vcxproj -> D:\比特科技C语言\Project11\a\P\Debug\P.exe
+     1>已完成生成项目“D:\比特科技C语言\Project11\a\P\P\P.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.69
