@@ -50,8 +50,6 @@ void MyQsort(void *base, int len,
 			}
 		}
 	}
-
-
 }
 int main()
 {
