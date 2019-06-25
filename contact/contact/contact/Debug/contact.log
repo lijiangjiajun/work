@@ -1,0 +1,18 @@
+﻿生成启动时间为 2019/6/23 22:40:13。
+     1>项目“D:\比特科技C语言\作业\contact\contact\contact\contact.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\BaiduNetdiskDownload\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt contact.c test.c
+         test.c
+     1>d:\比特科技c语言\作业\contact\contact\contact\test.c(47): warning C4013: “ClearContact”未定义；假设外部返回 int
+         contact.c
+     1>d:\比特科技c语言\作业\contact\contact\contact\contact.c(53): warning C4101: “name”: 未引用的局部变量
+         正在生成代码...
+       Link:
+         D:\BaiduNetdiskDownload\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\比特科技C语言\作业\contact\contact\Debug\contact.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\比特科技C语言\作业\contact\contact\Debug\contact.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\比特科技C语言\作业\contact\contact\Debug\contact.lib" /MACHINE:X86 Debug\contact.obj
+         Debug\test.obj
+         contact.vcxproj -> D:\比特科技C语言\作业\contact\contact\Debug\contact.exe
+     1>已完成生成项目“D:\比特科技C语言\作业\contact\contact\contact\contact.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.78
