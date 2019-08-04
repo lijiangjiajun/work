@@ -1,13 +1,12 @@
-﻿生成启动时间为 2019/6/8 18:07:06。
-     1>项目“D:\比特科技C语言\Project11\a\P\P\P.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2019/7/12 10:15:15。
+     1>项目“D:\Git\git上传代码\work\二进制码转循环码\P\P.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\BaiduNetdiskDownload\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "源.c"
+         D:\BaiduNetdiskDownload\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "源.c"
          源.c
-       Link:
-         D:\BaiduNetdiskDownload\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\比特科技C语言\Project11\a\P\Debug\P.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\比特科技C语言\Project11\a\P\Debug\P.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\比特科技C语言\Project11\a\P\Debug\P.lib" /MACHINE:X86 "Debug\源.obj"
-         P.vcxproj -> D:\比特科技C语言\Project11\a\P\Debug\P.exe
-     1>已完成生成项目“D:\比特科技C语言\Project11\a\P\P\P.vcxproj”(Build 个目标)的操作。
+     1>d:\git\git上传代码\work\二进制码转循环码\p\源.c(38): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\baidunetdiskdownload\vc\include\stdio.h(283) : 参见“scanf”的声明
+     1>已完成生成项目“D:\Git\git上传代码\work\二进制码转循环码\P\P.vcxproj”(Build 个目标)的操作 - 失败。
 
-生成成功。
+生成失败。
 
-已用时间 00:00:00.56
+已用时间 00:00:00.49
