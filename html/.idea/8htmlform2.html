@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>创建表单</title>
+</head>
+<body>
+<form>
+<input type="button" value="按钮">
+<button>按钮</button>   <!--js合作并且作为绑定事件-->
+<input type="submit" value="提交">   <!--提交表单-->
+<!--最大、最小、滑一下的数值-->
+<input type="range" min="-100" max="100" step="100" >
+
+<input type="range" min="-100" max="100" step="100" value="-100">
+
+<input type="number" min="-100" max="100" value="0">
+
+<input type="checkbox">选择
+<!--选择后无法取消-->
+<input type="radio">选择2
+    <br>
+    <br>
+程序员中最帅的是谁
+    <input type="radio"  name="a" checked>星月  <!--默认点中这个-->
+    <input type="radio"  name="a">星月
+    <input type="radio"  name="a">星月
+    <br>
+    你最喜欢吃的水果是什么?
+<!--    强制选择-->
+    <select>
+        <option>苹果</option>
+        <option>香蕉</option>
+        <option>西瓜</option>
+    </select>
+
+<!--    参考选择可以自己填写-->
+    <input type ="text" list="datalist1">
+    <datalist id="datalist1">
+        <option>苹果</option>
+        <option>香蕉</option>
+        <option>西瓜</option>
+    </datalist>
+</form>
+</body>
+</html>
