@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- 新增这里 -->
+    <bean id="myName"  class="java.lang.String">
+        <constructor-arg value="小比特" />
+    </bean>
+
+    <bean id="animal" class="frank.ioc.Animal">
+        <constructor-arg name="name" value="爱叫啥叫啥" />
+        <constructor-arg name="num" value="1" />
+    </bean>
+<!--            prototype每次调用生成新的对象-->
+    <bean id="animal2" class="frank.ioc.Animal" scope="prototype">
+        <constructor-arg name="name" ref="myName" />
+        <constructor-arg name="num" value="2" />
+    </bean>
+
+
+<!--    通过无参构造方法，改变变量的值-->
+    <bean id="animal3" class="frank.ioc.Animal">
+        <property name="name" ref="myName" />
+        <property name="num" value="3" />
+        <property name="tags">
+                <list>
+                    <value>可以飞的</value>
+                    <ref bean="myName" />
+                </list>
+        </property>
+    </bean>
+<!--     静态工厂方法实例化-->
+    <bean id="animal4" class="frank.ioc.AnimalFactory"
+          factory-method="newInstance"></bean>
+
+<!--    实例工厂方法实例化-->
+    <bean id="animalFactory2" class="frank.ioc.AnimalFactory2"></bean>
+        <bean id="animal5" class="frank.ioc.Animal" factory-bean="animalFactory2"
+              factory-method="newInstance"></bean>
+
+
+
+</beans>
